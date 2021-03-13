@@ -1,5 +1,5 @@
 module Paramable
-  module instanceMethods
+  module InstanceMethods
 
     def find_by_name(name)
      Object.all.detect{|a| a.name == name}
