@@ -9,8 +9,6 @@ class Artist
   include Paramable::InstanceMethods
 
 
-
-
   @@artists = []
 
   def initialize
