@@ -8,9 +8,6 @@ module Memorable
     def count
       all.count
     end
-
-    def initialize
-
-    end
+    
   end #end ClassMethods
 end #end Memorable
